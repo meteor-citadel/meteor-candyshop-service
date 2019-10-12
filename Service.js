@@ -17,6 +17,7 @@ module.exports = {
 
 		exposeDescription(this.serviceDescription, this.Picker)
 		exposeMethods(this.serviceDescription, this.Meteor, this.Picker)
+		exposePublications(this.serviceDescription, this.Meteor, this.Picker)
 
 		this.Picker.route(`/api/:any*`, function(params, req, res, next) {
 			res.statusCode = 404
