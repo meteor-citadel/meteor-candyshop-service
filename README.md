@@ -1,13 +1,13 @@
 Better Way Of Creating Meteor Based Services
 
-````
+```javascript
 import { Service } from 'meteor-candyshop-service'
 import { service } from '/service'
 
 Service.expose(service, Meteor, Picker)
-````
+```
 
-````
+```javascript
 import pckg from '/package.json'
 import { exampleInsert, exampleFind } from '/api/example'
 
@@ -57,5 +57,4 @@ export const service = {
 	],
 
 }
-
-````
+```
