@@ -1,6 +1,6 @@
 {
   "name": "meteor-candyshop-service",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "meteor methods and publications as a service",
   "main": "index.js",
   "scripts": {

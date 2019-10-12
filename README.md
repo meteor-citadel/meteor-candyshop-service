@@ -1,5 +1,6 @@
 Better Way Of Creating Meteor Based Services
 
+server.js 
 ```javascript
 import { Service } from 'meteor-candyshop-service'
 import { service } from '/service'
@@ -7,6 +8,7 @@ import { service } from '/service'
 Service.expose(service, Meteor, Picker)
 ```
 
+service/index.js
 ```javascript
 import pckg from '/package.json'
 import { exampleInsert, exampleFind } from '/api/example'
